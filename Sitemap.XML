@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/" >
+<url>
+<loc>https://fishy210.github.io/Website/index.html</loc>
+<lastmod>2025-24/11</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1.0</priority>
+</url>
+
+<url>
+<loc>https://fishy210.github.io/Website/photos.html</loc>
+<lastmod>2025-24-11</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+
+<url>
+<loc>https://fishy210.github.io/Website/about.html</loc>
+<lastmod>2025-24-11</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://fishy210.github.io/Website/contact.html</loc>
+<lastmod>2025-24-11</lastmod>
+<changefreq>never</changefreq>
+<priority>0.3</priority>
+</url>
+</urlset>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial scale=1.0"/>
+        <meta name="description" content="Edited Fish Gallery"/>
+        <title> Fish Photos</title> 
+        <link rel="stylesheet" href="CSS/style.css"> 
+        <link rel="stylesheet" href="CSS/index.css"> 
+    </head>
+
+    <body>
+        <header>
+            <h1> Fish Photos</h1>
+
+            <input id="hamburger_checkbox" type="checkbox"/>
+
+            <label for="hamburger_checkbox" id="hamburger_menu" aria-label=" Expand and collapse menu">
+            <img id="Hamburger_icon" src="Photos/Hamburger_icon.png" alt="Menu" width="24" height="18"/>
+            </label>
+
+            <nav>
+                <a class="active_nav" href="index.html">home</a>
+                <a href="photos.html"> Photos</a>
+                <a href="about.html"> About</a>
+                <a href="contact.html"> Contact me</a>
+
+
+
+            </nav>
+             </header>
+
+             <main>
+                <aside>
+                    <a href="https://unsplash.com/s/photos/fish" > Fish photos from photographers </a>
+                    <a href="https://pixabay.com/images/search/fish/"> Another site with more Fish photos</a> <!--get some reference links--> 
+                    
+
+                </aside>
+
+                <section>
+                <img id="main_image"
+                srcset="Photos/480hero.jpg 480w,
+                        Photos/960hero.jpg 960w,
+                        Photos/1920hero.jpg 1920w"
+                        sizes="(max-width: 480px) 480px,
+                        (max-width: 960px) 960px,
+                        (max-width: 1920px) 1920px"
+                        src="Photos/1920hero.jpg"
+                title="Fish"
+                alt="Fish">
+                </section>
+             </main>
+
+             <p>This is a selection of photos of fish I really enjoy</p>
+             <p>Please support all the photographers the photos originate from</p>
+             <p> hi hello</p>
+
+             <footer>
+                <p>&copy;2025 Fish Photos | All rights reserved | Matthew</p>
+             </footer>
+    </body>
+</html>
